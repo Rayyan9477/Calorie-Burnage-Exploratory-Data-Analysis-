@@ -1,4 +1,6 @@
 # Load the dataset
+
+# Replace with your path 
 calorie_burnage <- read.csv("C:/Users/rehan/Downloads/Documents/Calorie_Burnage.csv")
 
 
@@ -68,6 +70,7 @@ ggpairs(calorie_burnage, title = "Scatter Plot Matrix of Calorie Burnage Dataset
 
 # ----------------------------- Task 5 -----------------------------
 library(readr)
+# Replace with your path 
 Calorie_Burnage <- read.csv("C:/Users/rehan/Downloads/Documents/Calorie_Burnage.csv")
 model <- lm(`Calorie_Burnage` ~ `Average_Pulse` + `Hours_Work` + `Hours_Sleep`, data = Calorie_Burnage)
 summary(model)
